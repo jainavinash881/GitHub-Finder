@@ -129,24 +129,31 @@ img {
 .p {
   padding: 0.5rem;
 }
+
 .p-1 {
   padding: 1rem;
 }
+
 .p-2 {
   padding: 2rem;
 }
+
 .p-3 {
   padding: 3rem;
 }
+
 .py {
   padding: 0.5rem 0;
 }
+
 .py-1 {
   padding: 1rem 0;
 }
+
 .py-2 {
   padding: 2rem 0;
 }
+
 .py-3 {
   padding: 3rem 0;
 }
@@ -155,24 +162,31 @@ img {
 .m {
   margin: 0.5rem;
 }
+
 .m-1 {
   margin: 1rem;
 }
+
 .m-2 {
   margin: 2rem;
 }
+
 .m-3 {
   margin: 3rem;
 }
+
 .my {
   margin: 0.5rem 0;
 }
+
 .my-1 {
   margin: 1rem 0;
 }
+
 .my-2 {
   margin: 2rem 0;
 }
+
 .my-3 {
   margin: 3rem 0;
 }
@@ -411,4 +425,86 @@ table th {
     text-align: center;
     justify-content: center;
   }
+}
+
+.modal-wrapper {
+  background: white;
+  border: 1px solid #d0cccc;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  margin: 100px auto 0;
+  transition: all .8s;
+  width: 60%;
+}
+
+.modal-header {
+  background: #263238;
+  height: 40px;
+  line-height: 40px;
+  padding: 5px 20px;
+  text-align: right;
+}
+
+.modal-header h3 {
+  color: white;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-body {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.modal-footer {
+  background: #263238;
+  height: 35px;
+  padding: 15px;
+}
+
+.close-modal-btn {
+  color: white;
+  cursor: pointer;
+  float: right;
+  font-size: 30px;
+  margin: 0;
+}
+
+.close-modal-btn:hover {
+  color: black;
+}
+
+.btn-cancel,
+.btn-continue {
+  background: coral;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+  padding: 10px;
+}
+
+.btn-cancel {
+  background-color: #b71c1c;
+  float: left;
+}
+
+.btn-continue {
+  background-color: #1b5e20;
+  float: right;
+}
+
+.back-drop {
+  background-color: rgba(48, 49, 48, 0.42);
+  height: 100%;
+  position: fixed;
+  transition: all 1.3s;
+  width: 100%;
+}
+
+.open-modal-btn {
+  margin: 15px;
+  padding: 10px;
+  font-weight: bold;
 }
