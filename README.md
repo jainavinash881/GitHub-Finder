@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Install Project
-1 Download the Zip and unzip it
-2 Run npm install to load the node mdoules in the folder
+1 Download the Zip and unzip it </br>
+2 Run npm install to load the node mdoules in the folder</br>
 3 Run npm start, it will automatically start the project
 
 ## Available Scripts
